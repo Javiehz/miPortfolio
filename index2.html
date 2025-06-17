@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles2.css">
+</head>
+<body>
+  <h1>¡Hola, <span id="nombreSaludo"></span>!</h1>
+
+  <p>Gracias por interesarte sobre mi perfil.</p>
+  <p>Me llamo Javier, actualmente soy estudiante de DAM2.</p>
+  <p>Tengo 22 años, nací en el año 2002.</p>
+  <p>Soy un apasionado del mundo de la informática. Desde pequeño he estado rodeado de tecnología.</p>
+  <p>Tengo un grado medio de Sistemas Microinformáticos y Redes.</p>
+
+  <script>
+    const nombreGuardado = localStorage.getItem("nombreUsuario");
+    if(nombreGuardado) {
+      document.getElementById("nombreSaludo").textContent = nombreGuardado;
+    } else {
+      document.getElementById("nombreSaludo").textContent = "invitado";
+    }
+  </script>
+</body>
+</html>
