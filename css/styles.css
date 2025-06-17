@@ -8,6 +8,12 @@ body {
      color: white;
 
 }
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-position: center top;
+  }
+}
 
 h1{
     font-size: 2em;
