@@ -5,13 +5,13 @@ body {
      padding: 0;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      color: white;
-       text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00;
+
 }
 
 .div1 {
     text-align: center;
     border: 5px solid #00FF00;
-
+    box-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00;
     background-color: black;
     font-size: 150%;
     margin-top: 10%;
@@ -28,6 +28,7 @@ body {
     margin-left: 20%;
     margin-right: 20%;
     border: 5px solid #00FF00;
+    box-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00;
 
 }
 
