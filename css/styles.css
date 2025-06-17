@@ -5,6 +5,7 @@ body {
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      color: white;
 
+
 }
 @media (max-width: 768px) {
   body {
@@ -27,15 +28,16 @@ h1{
     margin-left: 20%;
     margin-right: 20%;
     padding: 3%;
-         background-image: url('../assets/backg2.jpg');
+    background-image: url('../assets/backg2.jpg');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center top;
+            text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00;
 
 }
 
 .div2 {
-
+    text-align: center;
     padding: 1%;
     margin-top: 1%;
     margin-left: 20%;
@@ -59,6 +61,7 @@ input:hover{
 button{
     background-color: white;
     color: black;
+      box-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00;
 }
 
 button:hover{
