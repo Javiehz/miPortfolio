@@ -68,15 +68,12 @@ button{
     background-color: white;
     color: black;
       box-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00;
+
 }
 
 button:hover{
     color: #00FF00;
     font-size: 80%;
-}
-
-input {
-  height: 1.3em;
 }
 
 
