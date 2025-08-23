@@ -4,6 +4,9 @@ body {
      padding: 0;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      color: white;
+     display: block;
+     justify-content: center;
+     text-align: center;
 
 
 }
@@ -37,9 +40,12 @@ h1{
 }
 
 .div2 {
-    text-align: center;
-    padding: 1%;
-    margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;  
+  text-align: center;
+    padding: 3%;
+    margin-top: 2%;
     margin-left: 20%;
     margin-right: 20%;
     border: 5px solid #00FF00;
@@ -67,6 +73,10 @@ button{
 button:hover{
     color: #00FF00;
     font-size: 80%;
+}
+
+input {
+  height: 1.5em;
 }
 
 
