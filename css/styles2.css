@@ -21,7 +21,6 @@ body {
 }
 
 .menu{
-  border: solid 1px #00FF00;
   display: flex;
   justify-content: center;
   align-items: center;
