@@ -37,9 +37,12 @@ h1{
 }
 
 .div2 {
-    text-align: center;
-    padding: 1%;
-    margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;  
+  text-align: center;
+    padding: 2%;
+    margin-top: 2%;
     margin-left: 20%;
     margin-right: 20%;
     border: 5px solid #00FF00;
