@@ -1,4 +1,8 @@
 body {
+  background-color: black;
+}
+
+.presentacion {
  font-size: 1.5em;
   color: #00FF00;
   font-family: 'Courier New', Courier, monospace;
@@ -14,4 +18,17 @@ body {
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
+}
+
+.menu{
+  border: solid 1px #00FF00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-shadow: #00FF00 1px 1px;
+  background-color: dark;
 }

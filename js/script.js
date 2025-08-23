@@ -7,9 +7,7 @@ document.getElementById("enviar").addEventListener("click", function() {
     return;
   }
 
-  // Guardar en localStorage
   localStorage.setItem("nombreUsuario", nombre);
 
-  // Redirigir a otra página
   window.location.href = "index2.html";
 });

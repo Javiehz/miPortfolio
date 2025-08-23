@@ -30,9 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     escribirLetra();
   }
 
-  // Paso 1: Escribir saludo
   escribirTexto(saludoTexto, saludoElemento, () => {
-    // Paso 2: Escribir párrafos uno por uno
     function escribirParrafo(index) {
       if (index < parrafos.length) {
         const p = document.getElementById(parrafosIds[index]);
