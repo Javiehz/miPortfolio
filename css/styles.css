@@ -44,7 +44,7 @@ h1{
   justify-content: center;
   gap: 15px;  
   text-align: center;
-    padding: 3%;
+    padding: 2%;
     margin-top: 2%;
     margin-left: 20%;
     margin-right: 20%;
@@ -76,7 +76,7 @@ button:hover{
 }
 
 input {
-  height: 1.5em;
+  height: 1.3em;
 }
 
 
