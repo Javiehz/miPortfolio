@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+     background-color: black;
      margin: 0;
      padding: 0;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,10 +32,10 @@ h1{
     margin-right: 20%;
     padding: 3%;
     background-image: url('../assets/backg2.jpg');
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center top;
-            text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00;
 
 }
 
@@ -44,13 +44,13 @@ h1{
   justify-content: center;
   gap: 15px;  
   text-align: center;
-    padding: 3%;
-    margin-top: 2%;
-    margin-left: 20%;
-    margin-right: 20%;
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center top;
+  padding: 3%;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
 
 }
 
@@ -64,7 +64,7 @@ input:hover{
 button{
     background-color: white;
     color: black;
-      box-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00;
+    box-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00;
 }
 
 button:hover{

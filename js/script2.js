@@ -6,10 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const parrafos = [
     "Gracias por interesarte sobre mi perfil.",
-    "Me llamo Javier, actualmente soy estudiante de DAM2.",
-    "Tengo 22 años, nací en el año 2002.",
-    "Soy un apasionado del mundo de la informática. Desde pequeño he estado rodeado de tecnología.",
-    "Tengo un grado medio de Sistemas Microinformáticos y Redes."
+    "Elige una de las opciones (PROYECTOS, CONTACTO, SOBRE JAVIER)"
   ];
 
   const parrafosIds = ["p1", "p2", "p3", "p4", "p5"];
