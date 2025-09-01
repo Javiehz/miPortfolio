@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "Elige una de las opciones (PROYECTOS, CONTACTO, SOBRE JAVIER)"
   ];
 
-  const parrafosIds = ["p1", "p2", "p3", "p4", "p5"];
+  const parrafosIds = ["p1", "p2"];
 
   let i = 0;
 
