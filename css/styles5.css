@@ -8,8 +8,8 @@ h1{
     0 0 3px #00FF00,
     0 0 6px #00FF00,
     0 0 12px #00FF00;
-    cursor: crosshair;
     text-decoration: underline;
+    text-align: center;
 }
 .presentacion{
   font-size: 1.3em;
@@ -17,4 +17,9 @@ h1{
   font-family: 'Courier New', Courier, monospace;
   background-color: black;
   text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00;
+}
+
+.flechaAtras{
+    display: flex;
+    gap: 475px;
 }
