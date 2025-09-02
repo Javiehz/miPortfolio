@@ -16,5 +16,6 @@ h1{
 
 .flechaAtras{
     display: flex;
-    gap: 20%;
+    gap: 15%;
+    max-width: 1200px;
 }
