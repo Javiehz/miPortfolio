@@ -24,12 +24,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 7%;
+  gap: 6%;
   color: white;
   margin-left: 25%;
   margin-right: 25%;
   background-color: dark;
   font-size: 19px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 a{
