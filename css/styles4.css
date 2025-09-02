@@ -28,5 +28,7 @@ h1{
 
 
 img {
+    height: 60px;
+    width: 40px;
     padding: 20px 20px 20px 20px;
 }
