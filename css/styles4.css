@@ -22,13 +22,13 @@ h1{
 
 .flechaAtras{
     display: flex;
-    gap: 30%;
+    gap: 15%;
 }
 
 
 
 img {
     height: 60px;
-    width: 40px;
+    width: 35px;
     padding: 20px 20px 20px 20px;
 }
