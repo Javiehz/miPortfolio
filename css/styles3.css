@@ -20,18 +20,6 @@ h1{
     max-width: 1200px;
 }
 
-body {
-  font-size: 16px;
-}
-
-@media (max-width: 768px) {  
-  body {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 480px) {  
-  body {
-    font-size: 12px;
-  }
+img {
+    padding: 20px 20px 20px 20px;
 }
